@@ -2,6 +2,8 @@ import { addDoc, collection } from "firebase/firestore";
 import { useState } from "react";
 import { db } from "../main";
 
+
+
 export interface Person {
   id?: string;
   firstname: string;
